@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekolah Rakyat - Game Edukasi Fisika</title>
+    <meta name="description"
+        content="Game edukasi interaktif untuk belajar Fisika SMA dengan gamifikasi, kuis, dan leaderboard.">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="header-brand">
+            <span class="logo">⚡</span>
+            <div>
+                <h1>Sekolah Rakyat</h1>
+                <span class="subtitle">Game Edukasi Fisika</span>
+            </div>
+        </div>
+        <div class="header-stats" id="header-stats" style="display:none;">
+            <div class="stat-badge" id="stat-points">
+                <span class="emoji">💎</span>
+                <span id="header-points">0</span> poin
+            </div>
+            <div class="stat-badge" id="stat-streak">
+                <span class="emoji">🔥</span>
+                <span id="header-streak">0</span> streak
+            </div>
+            <div class="stat-badge" id="stat-difficulty" style="display:none;">
+                <span id="header-diff-emoji"></span>
+                <span id="header-diff-label"></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- ============== LOGIN SCREEN ============== -->
+        <div class="screen active" id="screen-login">
+            <div class="login-card">
+                <span class="hero-emoji">🎮</span>
+                <h2>Sekolah Rakyat</h2>
+                <p class="description">Game edukasi Fisika SMA interaktif dengan kuis, streak, achievements, dan
+                    leaderboard!</p>
+
+                <div class="form-group">
+                    <label for="input-nama">Nama Kamu</label>
+                    <input type="text" id="input-nama" placeholder="Masukkan nama..." autocomplete="off">
+                </div>
+
+                <div class="form-group">
+                    <label for="input-kelas">Kelas</label>
+                    <select id="input-kelas">
+                        <option value="10">Kelas 10</option>
+                        <option value="11">Kelas 11</option>
+                        <option value="12">Kelas 12</option>
+                    </select>
+                </div>
+
+                <button class="btn btn-primary btn-full btn-lg" id="btn-start" onclick="startGame()">
+                    🚀 Mulai Belajar
+                </button>
+            </div>
+        </div>
+
+        <!-- ============== TOPIC SELECT SCREEN ============== -->
+        <div class="screen" id="screen-topics">
+            <div class="nav-tabs">
+                <button class="nav-tab active" onclick="switchMainTab('quiz')">⚡ Kuis</button>
+                <button class="nav-tab" onclick="switchMainTab('leaderboard')">🏆 Leaderboard</button>
+                <button class="nav-tab" onclick="switchMainTab('achievements')">🎖️ Achievements</button>
+            </div>
+
+            <!-- QUIZ TAB -->
+            <div id="tab-quiz">
+                <h2 class="section-title">Pilih Topik Fisika</h2>
+                <p class="section-subtitle" id="topic-subtitle">Kelas 10 — Pilih topik untuk mulai kuis</p>
+
+                <div class="kelas-tabs" id="kelas-tabs">
+                    <button class="kelas-tab active" data-kelas="10" onclick="switchKelas(10)">📘 Kelas 10</button>
+                    <button class="kelas-tab" data-kelas="11" onclick="switchKelas(11)">📗 Kelas 11</button>
+                    <button class="kelas-tab" data-kelas="12" onclick="switchKelas(12)">📕 Kelas 12</button>
+                    <button class="kelas-tab" data-kelas="all" onclick="switchKelas('all')">📚 Semua</button>
+                </div>
+
+                <div class="topic-grid" id="topic-grid">
+                    <!-- Filled by JS -->
+                </div>
+            </div>
+
+            <!-- LEADERBOARD TAB -->
+            <div id="tab-leaderboard" style="display:none;">
+                <h2 class="section-title">🏆 Leaderboard</h2>
+                <p class="section-subtitle">Top players — <span id="lb-kelas-label">Kelas 10</span></p>
+
+                <div class="kelas-tabs" id="lb-kelas-tabs">
+                    <button class="kelas-tab lb-kelas-tab active" data-kelas="10" onclick="loadLeaderboard(10)">📘 Kelas
+                        10</button>
+                    <button class="kelas-tab lb-kelas-tab" data-kelas="11" onclick="loadLeaderboard(11)">📗 Kelas
+                        11</button>
+                    <button class="kelas-tab lb-kelas-tab" data-kelas="12" onclick="loadLeaderboard(12)">📕 Kelas
+                        12</button>
+                    <button class="kelas-tab lb-kelas-tab" data-kelas="all" onclick="loadLeaderboard(null)">📚
+                        Semua</button>
+                </div>
+
+                <table class="leaderboard-table" id="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Nama</th>
+                            <th>Kelas</th>
+                            <th>Poin</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboard-body">
+                        <!-- Filled by JS -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- ACHIEVEMENTS TAB -->
+            <div id="tab-achievements" style="display:none;">
+                <h2 class="section-title">🎖️ Achievements</h2>
+                <p class="section-subtitle" id="ach-subtitle">0 / 0 unlocked</p>
+                <div class="achievements-grid" id="achievements-grid">
+                    <!-- Filled by JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- ============== QUIZ SCREEN ============== -->
+        <div class="screen" id="screen-quiz">
+            <button class="back-btn" onclick="backToTopics()">← Kembali</button>
+
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <span class="quiz-topic" id="quiz-topic-label"></span>
+                    <span class="quiz-timer" id="quiz-timer">⏱️ 0.0s</span>
+                </div>
+
+                <div class="narasi-box" id="narasi-box">
+                    <div class="narasi-image-container" id="narasi-image-container" style="display:none;">
+                        <img id="narasi-image" src="" alt="Ilustrasi Fisika" class="narasi-image">
+                    </div>
+                    <span class="narasi-label">📖 Cerita</span>
+                    <div id="narasi-text"></div>
+                </div>
+
+                <div class="question-box">
+                    <p class="question-text" id="question-text"></p>
+                </div>
+
+                <div class="answer-options" id="answer-options">
+                    <!-- Filled by JS -->
+                </div>
+
+                <!-- Result shown after answering -->
+                <div id="result-container" style="display:none;"></div>
+
+                <div style="text-align:center; margin-top:1rem;" id="next-btn-container" style="display:none;">
+                    <button class="btn btn-primary btn-lg" id="btn-next" onclick="nextQuestion()" style="display:none;">
+                        Soal Berikutnya →
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Confetti container -->
+    <div class="confetti-container" id="confetti-container"></div>
+
+    <script src="/static/game.js"></script>
+</body>
+
+</html>

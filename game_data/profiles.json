@@ -1,0 +1,1091 @@
+{
+  "f6a0ec87": {
+    "student_id": "f6a0ec87",
+    "nama": "TestSiswa",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 0,
+    "difficulty": "Easy",
+    "total_correct": 0,
+    "total_wrong": 0,
+    "total_answered": 0,
+    "current_streak": 0,
+    "best_streak": 0,
+    "fast_correct_count": 0,
+    "unique_topics": [],
+    "achievements": [],
+    "history": [],
+    "created_at": "2026-03-09T09:12:17.164572",
+    "last_played": null
+  },
+  "6683b539": {
+    "student_id": "6683b539",
+    "nama": "Ahmad",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 8,
+    "difficulty": "Easy",
+    "total_correct": 1,
+    "total_wrong": 0,
+    "total_answered": 1,
+    "current_streak": 1,
+    "best_streak": 1,
+    "fast_correct_count": 0,
+    "unique_topics": [
+      "Hukum Newton III (Aksi-Reaksi)"
+    ],
+    "achievements": [
+      "first_correct"
+    ],
+    "history": [
+      {
+        "subject": "Hukum Newton III (Aksi-Reaksi)",
+        "question": "Astronot mendorong dinding pesawat di luar angkasa. Apa yang terjadi?",
+        "selected": "Astronot terdorong menjauh",
+        "correct": "Astronot terdorong menjauh",
+        "is_correct": true,
+        "point_change": 8,
+        "answer_time": 39.3,
+        "streak": 1,
+        "timestamp": "2026-03-09T09:14:23.056431"
+      }
+    ],
+    "created_at": "2026-03-09T09:13:16.530792",
+    "last_played": "2026-03-09T09:14:23.056150"
+  },
+  "a9fdf5b4": {
+    "student_id": "a9fdf5b4",
+    "nama": "uqi",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 7,
+    "difficulty": "Easy",
+    "total_correct": 1,
+    "total_wrong": 3,
+    "total_answered": 4,
+    "current_streak": 0,
+    "best_streak": 1,
+    "fast_correct_count": 0,
+    "unique_topics": [
+      "Konversi Satuan",
+      "Besaran Pokok dan Satuan SI"
+    ],
+    "achievements": [
+      "first_correct"
+    ],
+    "history": [
+      {
+        "subject": "Konversi Satuan",
+        "question": "Kecepatan 72 km/jam jika dikonversi ke m/s menjadi...",
+        "selected": "36 m/s",
+        "correct": "20 m/s",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 3.7,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:18:09.520860"
+      },
+      {
+        "subject": "Besaran Pokok dan Satuan SI",
+        "question": "Manakah yang merupakan besaran pokok dalam Sistem Internasional (SI)?",
+        "selected": "Gaya",
+        "correct": "Massa",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 1.1,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:18:13.463124"
+      },
+      {
+        "subject": "Besaran Pokok dan Satuan SI",
+        "question": "Manakah yang merupakan besaran pokok dalam Sistem Internasional (SI)?",
+        "selected": "Massa",
+        "correct": "Massa",
+        "is_correct": true,
+        "point_change": 8,
+        "answer_time": 63.0,
+        "streak": 1,
+        "timestamp": "2026-03-09T09:19:18.484547"
+      },
+      {
+        "subject": "Konversi Satuan",
+        "question": "Kecepatan 72 km/jam jika dikonversi ke m/s menjadi...",
+        "selected": "36 m/s",
+        "correct": "20 m/s",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 2.3,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:19:24.232885"
+      }
+    ],
+    "created_at": "2026-03-09T09:18:02.212412",
+    "last_played": "2026-03-09T09:19:24.232192"
+  },
+  "2f31e837": {
+    "student_id": "2f31e837",
+    "nama": "uqi2",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 169,
+    "difficulty": "Easy",
+    "total_correct": 12,
+    "total_wrong": 12,
+    "total_answered": 24,
+    "current_streak": 5,
+    "best_streak": 5,
+    "fast_correct_count": 11,
+    "unique_topics": [
+      "Gerak Parabola",
+      "Gerak Vertikal",
+      "Gerak Lurus Berubah Beraturan (GLBB)",
+      "Gerak Lurus Beraturan (GLB)",
+      "Momentum",
+      "Impuls dan Hukum Kekekalan Momentum",
+      "Penjumlahan Vektor",
+      "Komponen Vektor",
+      "Hukum Newton I (Kelembaman)"
+    ],
+    "achievements": [
+      "first_correct",
+      "streak_3",
+      "speed_demon",
+      "physics_explorer",
+      "total_10",
+      "streak_5"
+    ],
+    "history": [
+      {
+        "subject": "Gerak Parabola",
+        "question": "Bola ditendang dengan sudut 45° dan kecepatan awal 20 m/s (g = 10 m/s²). Berapa jarak horizontal maksimum (jangkauan)?",
+        "selected": "30 m",
+        "correct": "40 m",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 3.8,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:20:13.889233"
+      },
+      {
+        "subject": "Gerak Vertikal",
+        "question": "Benda dilempar ke atas dengan v₀ = 40 m/s (g = 10 m/s²). Berapa tinggi maksimumnya?",
+        "selected": "60 m",
+        "correct": "80 m",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 1.7,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:28:07.441053"
+      },
+      {
+        "subject": "Gerak Vertikal",
+        "question": "Benda dilempar ke atas dengan v₀ = 40 m/s (g = 10 m/s²). Berapa tinggi maksimumnya?",
+        "selected": "80 m",
+        "correct": "80 m",
+        "is_correct": true,
+        "point_change": 11,
+        "answer_time": 1.2,
+        "streak": 1,
+        "timestamp": "2026-03-09T09:28:10.461331"
+      },
+      {
+        "subject": "Gerak Lurus Berubah Beraturan (GLBB)",
+        "question": "Sebuah mobil bergerak dari diam dengan percepatan 3 m/s². Berapa kecepatannya setelah 6 detik?",
+        "selected": "15 m/s",
+        "correct": "18 m/s",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 0.8,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:28:12.230042"
+      },
+      {
+        "subject": "Gerak Vertikal",
+        "question": "Benda dilempar ke atas dengan v₀ = 40 m/s (g = 10 m/s²). Berapa tinggi maksimumnya?",
+        "selected": "80 m",
+        "correct": "80 m",
+        "is_correct": true,
+        "point_change": 6,
+        "answer_time": 1.0,
+        "streak": 1,
+        "timestamp": "2026-03-09T09:28:14.991786"
+      },
+      {
+        "subject": "Gerak Lurus Beraturan (GLB)",
+        "question": "Mobil bergerak dengan kecepatan tetap 20 m/s selama 10 detik. Berapa jarak yang ditempuh?",
+        "selected": "400 m",
+        "correct": "200 m",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 0.9,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:28:16.905021"
+      },
+      {
+        "subject": "Gerak Lurus Berubah Beraturan (GLBB)",
+        "question": "Sebuah mobil bergerak dari diam dengan percepatan 3 m/s². Berapa kecepatannya setelah 6 detik?",
+        "selected": "18 m/s",
+        "correct": "18 m/s",
+        "is_correct": true,
+        "point_change": 6,
+        "answer_time": 1.5,
+        "streak": 1,
+        "timestamp": "2026-03-09T09:28:20.814052"
+      },
+      {
+        "subject": "Gerak Vertikal",
+        "question": "Benda dilempar ke atas dengan v₀ = 40 m/s (g = 10 m/s²). Berapa tinggi maksimumnya?",
+        "selected": "80 m",
+        "correct": "80 m",
+        "is_correct": true,
+        "point_change": 6,
+        "answer_time": 1.3,
+        "streak": 2,
+        "timestamp": "2026-03-09T09:28:23.496737"
+      },
+      {
+        "subject": "Gerak Lurus Berubah Beraturan (GLBB)",
+        "question": "Sebuah mobil bergerak dari diam dengan percepatan 3 m/s². Berapa kecepatannya setelah 6 detik?",
+        "selected": "18 m/s",
+        "correct": "18 m/s",
+        "is_correct": true,
+        "point_change": 43,
+        "answer_time": 1.5,
+        "streak": 3,
+        "timestamp": "2026-03-09T09:28:26.224878"
+      },
+      {
+        "subject": "Gerak Vertikal",
+        "question": "Benda dilempar ke atas dengan v₀ = 40 m/s (g = 10 m/s²). Berapa tinggi maksimumnya?",
+        "selected": "80 m",
+        "correct": "80 m",
+        "is_correct": true,
+        "point_change": 8,
+        "answer_time": 1.4,
+        "streak": 4,
+        "timestamp": "2026-03-09T09:44:25.525704"
+      },
+      {
+        "subject": "Momentum",
+        "question": "Bola 0,5 kg bergerak 20 m/s. Berapa momentumnya?",
+        "selected": "20 kg·m/s",
+        "correct": "10 kg·m/s",
+        "is_correct": false,
+        "point_change": 19,
+        "answer_time": 3.5,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:44:37.124146"
+      },
+      {
+        "subject": "Momentum",
+        "question": "Bola 0,5 kg bergerak 20 m/s. Berapa momentumnya?",
+        "selected": "20 kg·m/s",
+        "correct": "10 kg·m/s",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 3.6,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:44:42.670339"
+      },
+      {
+        "subject": "Impuls dan Hukum Kekekalan Momentum",
+        "question": "Bola 0,2 kg bergerak 10 m/s ditendang sehingga bergerak -15 m/s (berbalik arah). Berapa impuls yang diberikan?",
+        "selected": "2 N·s",
+        "correct": "5 N·s",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 0.9,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:44:44.636526"
+      },
+      {
+        "subject": "Momentum",
+        "question": "Bola 0,5 kg bergerak 20 m/s. Berapa momentumnya?",
+        "selected": "15 kg·m/s",
+        "correct": "10 kg·m/s",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 1.3,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:44:47.294526"
+      },
+      {
+        "subject": "Impuls dan Hukum Kekekalan Momentum",
+        "question": "Bola 0,2 kg bergerak 10 m/s ditendang sehingga bergerak -15 m/s (berbalik arah). Berapa impuls yang diberikan?",
+        "selected": "5 N·s",
+        "correct": "5 N·s",
+        "is_correct": true,
+        "point_change": 6,
+        "answer_time": 1.2,
+        "streak": 1,
+        "timestamp": "2026-03-09T09:44:50.026519"
+      },
+      {
+        "subject": "Penjumlahan Vektor",
+        "question": "Dua vektor gaya saling tegak lurus: F₁ = 3 N (timur) dan F₂ = 4 N (utara). Berapa resultan gayanya?",
+        "selected": "12 N",
+        "correct": "5 N",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 3.1,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:45:09.414491"
+      },
+      {
+        "subject": "Komponen Vektor",
+        "question": "Vektor gaya F = 10 N membentuk sudut 30° terhadap sumbu x. Berapa komponen Fx?",
+        "selected": "10 N",
+        "correct": "5√3 N",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 0.9,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:45:19.426286"
+      },
+      {
+        "subject": "Komponen Vektor",
+        "question": "Vektor gaya F = 10 N membentuk sudut 30° terhadap sumbu x. Berapa komponen Fx?",
+        "selected": "10√3 N",
+        "correct": "5√3 N",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 1.2,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:45:21.887192"
+      },
+      {
+        "subject": "Komponen Vektor",
+        "question": "Vektor gaya F = 10 N membentuk sudut 30° terhadap sumbu x. Berapa komponen Fx?",
+        "selected": "5 N",
+        "correct": "5√3 N",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 0.9,
+        "streak": 0,
+        "timestamp": "2026-03-09T09:45:23.930134"
+      },
+      {
+        "subject": "Komponen Vektor",
+        "question": "Vektor gaya F = 10 N membentuk sudut 30° terhadap sumbu x. Berapa komponen Fx?",
+        "selected": "5√3 N",
+        "correct": "5√3 N",
+        "is_correct": true,
+        "point_change": 6,
+        "answer_time": 1.0,
+        "streak": 1,
+        "timestamp": "2026-03-09T09:45:26.231105"
+      },
+      {
+        "subject": "Komponen Vektor",
+        "question": "Vektor gaya F = 10 N membentuk sudut 30° terhadap sumbu x. Berapa komponen Fx?",
+        "selected": "5√3 N",
+        "correct": "5√3 N",
+        "is_correct": true,
+        "point_change": 6,
+        "answer_time": 0.6,
+        "streak": 2,
+        "timestamp": "2026-03-09T09:45:28.036955"
+      },
+      {
+        "subject": "Penjumlahan Vektor",
+        "question": "Dua vektor gaya saling tegak lurus: F₁ = 3 N (timur) dan F₂ = 4 N (utara). Berapa resultan gayanya?",
+        "selected": "5 N",
+        "correct": "5 N",
+        "is_correct": true,
+        "point_change": 23,
+        "answer_time": 0.9,
+        "streak": 3,
+        "timestamp": "2026-03-09T09:45:30.146081"
+      },
+      {
+        "subject": "Penjumlahan Vektor",
+        "question": "Dua vektor gaya saling tegak lurus: F₁ = 3 N (timur) dan F₂ = 4 N (utara). Berapa resultan gayanya?",
+        "selected": "5 N",
+        "correct": "5 N",
+        "is_correct": true,
+        "point_change": 8,
+        "answer_time": 0.8,
+        "streak": 4,
+        "timestamp": "2026-03-09T09:45:32.054464"
+      },
+      {
+        "subject": "Hukum Newton I (Kelembaman)",
+        "question": "Mengapa penumpang bus terdorong ke depan saat bus tiba-tiba direm?",
+        "selected": "Sifat kelembaman (inersia)",
+        "correct": "Sifat kelembaman (inersia)",
+        "is_correct": true,
+        "point_change": 30,
+        "answer_time": 5.2,
+        "streak": 5,
+        "timestamp": "2026-03-09T09:46:50.010078"
+      }
+    ],
+    "created_at": "2026-03-09T09:19:38.786182",
+    "last_played": "2026-03-09T09:46:50.008553"
+  },
+  "8074b5ef": {
+    "student_id": "8074b5ef",
+    "nama": "haha",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 0,
+    "difficulty": "Easy",
+    "total_correct": 0,
+    "total_wrong": 0,
+    "total_answered": 0,
+    "current_streak": 0,
+    "best_streak": 0,
+    "fast_correct_count": 0,
+    "unique_topics": [],
+    "achievements": [],
+    "history": [],
+    "created_at": "2026-03-09T09:47:09.073086",
+    "last_played": null
+  },
+  "f7c93f06": {
+    "student_id": "f7c93f06",
+    "nama": "uqi",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 0,
+    "difficulty": "Easy",
+    "total_correct": 0,
+    "total_wrong": 1,
+    "total_answered": 1,
+    "current_streak": 0,
+    "best_streak": 0,
+    "fast_correct_count": 0,
+    "unique_topics": [
+      "Konversi Satuan"
+    ],
+    "achievements": [],
+    "history": [
+      {
+        "subject": "Konversi Satuan",
+        "question": "Kecepatan 72 km/jam jika dikonversi ke m/s menjadi...",
+        "selected": "10 m/s",
+        "correct": "20 m/s",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 1.0,
+        "streak": 0,
+        "timestamp": "2026-03-09T10:01:17.522239"
+      }
+    ],
+    "created_at": "2026-03-09T10:01:15.626811",
+    "last_played": "2026-03-09T10:01:17.520964"
+  },
+  "c5213fd5": {
+    "student_id": "c5213fd5",
+    "nama": "TestImages",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 8,
+    "difficulty": "Easy",
+    "total_correct": 1,
+    "total_wrong": 0,
+    "total_answered": 1,
+    "current_streak": 1,
+    "best_streak": 1,
+    "fast_correct_count": 0,
+    "unique_topics": [
+      "Percepatan Gravitasi"
+    ],
+    "achievements": [
+      "first_correct"
+    ],
+    "history": [
+      {
+        "subject": "Percepatan Gravitasi",
+        "question": "Benda bermassa 10 kg berada di planet dengan g = 5 m/s². Berapa beratnya?",
+        "selected": "50 N",
+        "correct": "50 N",
+        "is_correct": true,
+        "point_change": 8,
+        "answer_time": 27.2,
+        "streak": 1,
+        "timestamp": "2026-03-09T10:03:52.494741"
+      }
+    ],
+    "created_at": "2026-03-09T10:03:10.199571",
+    "last_played": "2026-03-09T10:03:52.493681"
+  },
+  "197adf87": {
+    "student_id": "197adf87",
+    "nama": "apa",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 0,
+    "difficulty": "Easy",
+    "total_correct": 0,
+    "total_wrong": 0,
+    "total_answered": 0,
+    "current_streak": 0,
+    "best_streak": 0,
+    "fast_correct_count": 0,
+    "unique_topics": [],
+    "achievements": [],
+    "history": [],
+    "created_at": "2026-03-09T10:08:14.822651",
+    "last_played": null
+  },
+  "8a24eac1": {
+    "student_id": "8a24eac1",
+    "nama": "ya",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 17,
+    "difficulty": "Easy",
+    "total_correct": 2,
+    "total_wrong": 0,
+    "total_answered": 2,
+    "current_streak": 2,
+    "best_streak": 2,
+    "fast_correct_count": 2,
+    "unique_topics": [
+      "Penjumlahan Vektor"
+    ],
+    "achievements": [
+      "first_correct"
+    ],
+    "history": [
+      {
+        "subject": "Penjumlahan Vektor",
+        "question": "Dua vektor gaya saling tegak lurus: F₁ = 3 N (timur) dan F₂ = 4 N (utara). Berapa resultan gayanya?",
+        "selected": "5 N",
+        "correct": "5 N",
+        "is_correct": true,
+        "point_change": 11,
+        "answer_time": 4.9,
+        "streak": 1,
+        "timestamp": "2026-03-09T10:08:29.774125"
+      },
+      {
+        "subject": "Penjumlahan Vektor",
+        "question": "Dua vektor gaya saling tegak lurus: F₁ = 3 N (timur) dan F₂ = 4 N (utara). Berapa resultan gayanya?",
+        "selected": "5 N",
+        "correct": "5 N",
+        "is_correct": true,
+        "point_change": 6,
+        "answer_time": 1.6,
+        "streak": 2,
+        "timestamp": "2026-03-09T10:08:32.792171"
+      }
+    ],
+    "created_at": "2026-03-09T10:08:23.501852",
+    "last_played": "2026-03-09T10:08:32.790550"
+  },
+  "0deb24b9": {
+    "student_id": "0deb24b9",
+    "nama": "zurin",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 0,
+    "difficulty": "Easy",
+    "total_correct": 0,
+    "total_wrong": 1,
+    "total_answered": 1,
+    "current_streak": 0,
+    "best_streak": 0,
+    "fast_correct_count": 0,
+    "unique_topics": [
+      "Pengukuran dan Angka Penting"
+    ],
+    "achievements": [],
+    "history": [
+      {
+        "subject": "Pengukuran dan Angka Penting",
+        "question": "Sebuah balok diukur menggunakan jangka sorong dengan panjang 1,82 cm, lebar 0,46 cm, dan tinggi 1,35 cm. Volume balok sesuai kaidah angka penting adalah …",
+        "selected": "1,5 cm³",
+        "correct": "1,13 cm³",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 4.5,
+        "streak": 0,
+        "timestamp": "2026-03-09T10:32:56.693367"
+      }
+    ],
+    "created_at": "2026-03-09T10:32:50.897474",
+    "last_played": "2026-03-09T10:32:56.691744"
+  },
+  "5c5b15f6": {
+    "student_id": "5c5b15f6",
+    "nama": "uqi2",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 16,
+    "difficulty": "Easy",
+    "total_correct": 2,
+    "total_wrong": 6,
+    "total_answered": 8,
+    "current_streak": 0,
+    "best_streak": 2,
+    "fast_correct_count": 2,
+    "unique_topics": [
+      "Pengukuran dan Angka Penting",
+      "Pengukuran Mikrometer Sekrup",
+      "Vektor Perpindahan"
+    ],
+    "achievements": [
+      "first_correct"
+    ],
+    "history": [
+      {
+        "subject": "Pengukuran dan Angka Penting",
+        "question": "Sebuah balok diukur menggunakan jangka sorong dengan panjang 1,82 cm, lebar 0,46 cm, dan tinggi 1,35 cm. Volume balok sesuai kaidah angka penting adalah …",
+        "selected": "1,2 cm³",
+        "correct": "1,13 cm³",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 2.2,
+        "streak": 0,
+        "timestamp": "2026-03-09T10:33:44.366649"
+      },
+      {
+        "subject": "Pengukuran dan Angka Penting",
+        "question": "Sebuah balok diukur menggunakan jangka sorong dengan panjang 1,82 cm, lebar 0,46 cm, dan tinggi 1,35 cm. Volume balok sesuai kaidah angka penting adalah …",
+        "selected": "1,5 cm³",
+        "correct": "1,13 cm³",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 1.4,
+        "streak": 0,
+        "timestamp": "2026-03-09T10:33:47.775894"
+      },
+      {
+        "subject": "Pengukuran dan Angka Penting",
+        "question": "Sebuah balok diukur menggunakan jangka sorong dengan panjang 1,82 cm, lebar 0,46 cm, dan tinggi 1,35 cm. Volume balok sesuai kaidah angka penting adalah …",
+        "selected": "1,2 cm³",
+        "correct": "1,13 cm³",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 2.3,
+        "streak": 0,
+        "timestamp": "2026-03-09T10:33:53.496536"
+      },
+      {
+        "subject": "Pengukuran Mikrometer Sekrup",
+        "question": "Hasil pengukuran diameter suatu tabung dengan mikrometer sekrup adalah 2,70 mm. Gambar yang sesuai menunjukkan skala utama di angka ...",
+        "selected": "3,0 mm dengan skala putar di 15",
+        "correct": "2,5 mm dengan skala putar di 20",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 1.7,
+        "streak": 0,
+        "timestamp": "2026-03-09T10:33:56.779097"
+      },
+      {
+        "subject": "Pengukuran dan Angka Penting",
+        "question": "Sebuah balok diukur menggunakan jangka sorong dengan panjang 1,82 cm, lebar 0,46 cm, dan tinggi 1,35 cm. Volume balok sesuai kaidah angka penting adalah …",
+        "selected": "1,2 cm³",
+        "correct": "1,13 cm³",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 1.4,
+        "streak": 0,
+        "timestamp": "2026-03-09T10:33:59.317869"
+      },
+      {
+        "subject": "Pengukuran Mikrometer Sekrup",
+        "question": "Hasil pengukuran diameter suatu tabung dengan mikrometer sekrup adalah 2,70 mm. Gambar yang sesuai menunjukkan skala utama di angka ...",
+        "selected": "2,5 mm dengan skala putar di 20",
+        "correct": "2,5 mm dengan skala putar di 20",
+        "is_correct": true,
+        "point_change": 11,
+        "answer_time": 1.7,
+        "streak": 1,
+        "timestamp": "2026-03-09T10:34:02.397572"
+      },
+      {
+        "subject": "Vektor Perpindahan",
+        "question": "Seorang anak berlari 80 m ke utara, 80 m ke timur, dan 20 m ke selatan. Besar perpindahan anak tersebut adalah …",
+        "selected": "100 m",
+        "correct": "100 m",
+        "is_correct": true,
+        "point_change": 6,
+        "answer_time": 4.3,
+        "streak": 2,
+        "timestamp": "2026-03-09T10:34:27.458252"
+      },
+      {
+        "subject": "Vektor Perpindahan",
+        "question": "Seorang anak berlari 80 m ke utara, 80 m ke timur, dan 20 m ke selatan. Besar perpindahan anak tersebut adalah …",
+        "selected": "60 m",
+        "correct": "100 m",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 2.4,
+        "streak": 0,
+        "timestamp": "2026-03-09T10:34:32.909192"
+      }
+    ],
+    "created_at": "2026-03-09T10:33:16.869656",
+    "last_played": "2026-03-09T10:34:32.907766"
+  },
+  "76183aef": {
+    "student_id": "76183aef",
+    "nama": "ha",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 0,
+    "difficulty": "Easy",
+    "total_correct": 0,
+    "total_wrong": 0,
+    "total_answered": 0,
+    "current_streak": 0,
+    "best_streak": 0,
+    "fast_correct_count": 0,
+    "unique_topics": [],
+    "achievements": [],
+    "history": [],
+    "created_at": "2026-03-09T10:34:42.597971",
+    "last_played": null
+  },
+  "f54c4aac": {
+    "student_id": "f54c4aac",
+    "nama": "uqi",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "points": 0,
+    "difficulty": "Easy",
+    "total_correct": 0,
+    "total_wrong": 0,
+    "total_answered": 0,
+    "current_streak": 0,
+    "best_streak": 0,
+    "fast_correct_count": 0,
+    "unique_topics": [],
+    "achievements": [],
+    "history": [],
+    "created_at": "2026-03-09T10:35:51.266635",
+    "last_played": null
+  },
+  "aa8a6f08": {
+    "student_id": "aa8a6f08",
+    "nama": "Ahmad",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "kelas": 10,
+    "points": 8,
+    "difficulty": "Easy",
+    "total_correct": 1,
+    "total_wrong": 1,
+    "total_answered": 2,
+    "current_streak": 1,
+    "best_streak": 1,
+    "fast_correct_count": 0,
+    "unique_topics": [
+      "Pengukuran dan Angka Penting",
+      "Pengukuran Mikrometer Sekrup"
+    ],
+    "achievements": [
+      "first_correct"
+    ],
+    "history": [
+      {
+        "subject": "Pengukuran dan Angka Penting",
+        "question": "Sebuah balok diukur menggunakan jangka sorong dengan panjang 1,82 cm, lebar 0,46 cm, dan tinggi 1,35 cm. Volume balok sesuai kaidah angka penting adalah …",
+        "selected": "1,1 cm³",
+        "correct": "1,13 cm³",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 14.6,
+        "streak": 0,
+        "timestamp": "2026-03-09T11:04:09.026415"
+      },
+      {
+        "subject": "Pengukuran Mikrometer Sekrup",
+        "question": "Hasil pengukuran diameter suatu tabung dengan mikrometer sekrup adalah 2,70 mm. Gambar yang sesuai menunjukkan skala utama di angka ...",
+        "selected": "2,5 mm dengan skala putar di 20",
+        "correct": "2,5 mm dengan skala putar di 20",
+        "is_correct": true,
+        "point_change": 8,
+        "answer_time": 15.5,
+        "streak": 1,
+        "timestamp": "2026-03-09T11:04:46.707126"
+      }
+    ],
+    "created_at": "2026-03-09T11:03:17.692059",
+    "last_played": "2026-03-09T11:05:48.526290"
+  },
+  "21a7f81f": {
+    "student_id": "21a7f81f",
+    "nama": "uqi",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "kelas": 10,
+    "points": 78,
+    "difficulty": "Easy",
+    "total_correct": 7,
+    "total_wrong": 6,
+    "total_answered": 13,
+    "current_streak": 4,
+    "best_streak": 4,
+    "fast_correct_count": 5,
+    "unique_topics": [
+      "Pengukuran dan Angka Penting",
+      "Pengukuran Mikrometer Sekrup"
+    ],
+    "achievements": [
+      "first_correct",
+      "streak_3",
+      "speed_demon"
+    ],
+    "history": [
+      {
+        "subject": "Pengukuran dan Angka Penting",
+        "question": "Sebuah balok diukur menggunakan jangka sorong dengan panjang 1,82 cm, lebar 0,46 cm, dan tinggi 1,35 cm. Volume balok sesuai kaidah angka penting adalah …",
+        "selected": "1,13 cm³",
+        "correct": "1,13 cm³",
+        "is_correct": true,
+        "point_change": 11,
+        "answer_time": 2.1,
+        "streak": 1,
+        "timestamp": "2026-03-09T11:23:16.042641"
+      },
+      {
+        "subject": "Pengukuran Mikrometer Sekrup",
+        "question": "Hasil pengukuran diameter suatu tabung dengan mikrometer sekrup adalah 2,70 mm. Gambar yang sesuai menunjukkan skala utama di angka ...",
+        "selected": "2,0 mm dengan skala putar di 20",
+        "correct": "2,5 mm dengan skala putar di 20",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 2.1,
+        "streak": 0,
+        "timestamp": "2026-03-09T11:23:19.467773"
+      },
+      {
+        "subject": "Pengukuran Mikrometer Sekrup",
+        "question": "Hasil pengukuran diameter suatu tabung dengan mikrometer sekrup adalah 2,70 mm. Gambar yang sesuai menunjukkan skala utama di angka ...",
+        "selected": "2,5 mm dengan skala putar di 25",
+        "correct": "2,5 mm dengan skala putar di 20",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 2.4,
+        "streak": 0,
+        "timestamp": "2026-03-09T11:23:22.973627"
+      },
+      {
+        "subject": "Pengukuran dan Angka Penting",
+        "question": "Sebuah balok diukur menggunakan jangka sorong dengan panjang 1,82 cm, lebar 0,46 cm, dan tinggi 1,35 cm. Volume balok sesuai kaidah angka penting adalah …",
+        "selected": "1,1 cm³",
+        "correct": "1,13 cm³",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 1.8,
+        "streak": 0,
+        "timestamp": "2026-03-09T11:23:26.248269"
+      },
+      {
+        "subject": "Pengukuran Mikrometer Sekrup",
+        "question": "Hasil pengukuran diameter suatu tabung dengan mikrometer sekrup adalah 2,70 mm. Gambar yang sesuai menunjukkan skala utama di angka ...",
+        "selected": "2,5 mm dengan skala putar di 15",
+        "correct": "2,5 mm dengan skala putar di 20",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 2.6,
+        "streak": 0,
+        "timestamp": "2026-03-09T11:23:31.437082"
+      },
+      {
+        "subject": "Pengukuran Mikrometer Sekrup",
+        "question": "Hasil pengukuran diameter suatu tabung dengan mikrometer sekrup adalah 2,70 mm. Gambar yang sesuai menunjukkan skala utama di angka ...",
+        "selected": "2,5 mm dengan skala putar di 25",
+        "correct": "2,5 mm dengan skala putar di 20",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 2.0,
+        "streak": 0,
+        "timestamp": "2026-03-09T11:23:35.021597"
+      },
+      {
+        "subject": "Pengukuran Mikrometer Sekrup",
+        "question": "Hasil pengukuran diameter suatu tabung dengan mikrometer sekrup adalah 2,70 mm. Gambar yang sesuai menunjukkan skala utama di angka ...",
+        "selected": "2,5 mm dengan skala putar di 20",
+        "correct": "2,5 mm dengan skala putar di 20",
+        "is_correct": true,
+        "point_change": 6,
+        "answer_time": 3.5,
+        "streak": 1,
+        "timestamp": "2026-03-09T11:23:40.799312"
+      },
+      {
+        "subject": "Pengukuran Mikrometer Sekrup",
+        "question": "Hasil pengukuran diameter suatu tabung dengan mikrometer sekrup adalah 2,70 mm. Gambar yang sesuai menunjukkan skala utama di angka ...",
+        "selected": "2,5 mm dengan skala putar di 20",
+        "correct": "2,5 mm dengan skala putar di 20",
+        "is_correct": true,
+        "point_change": 5,
+        "answer_time": 6.4,
+        "streak": 2,
+        "timestamp": "2026-03-09T11:24:19.004324"
+      },
+      {
+        "subject": "Pengukuran dan Angka Penting",
+        "question": "Sebuah balok diukur menggunakan jangka sorong dengan panjang 1,82 cm, lebar 0,46 cm, dan tinggi 1,35 cm. Volume balok sesuai kaidah angka penting adalah …",
+        "selected": "1,130 cm³",
+        "correct": "1,13 cm³",
+        "is_correct": false,
+        "point_change": -1,
+        "answer_time": 1.8,
+        "streak": 0,
+        "timestamp": "2026-03-09T11:24:22.645273"
+      },
+      {
+        "subject": "Pengukuran Mikrometer Sekrup",
+        "question": "Hasil pengukuran diameter suatu tabung dengan mikrometer sekrup adalah 2,70 mm. Gambar yang sesuai menunjukkan skala utama di angka ...",
+        "selected": "2,5 mm dengan skala putar di 20",
+        "correct": "2,5 mm dengan skala putar di 20",
+        "is_correct": true,
+        "point_change": 6,
+        "answer_time": 2.5,
+        "streak": 1,
+        "timestamp": "2026-03-09T11:24:26.668847"
+      },
+      {
+        "subject": "Pengukuran dan Angka Penting",
+        "question": "Sebuah balok diukur menggunakan jangka sorong dengan panjang 1,82 cm, lebar 0,46 cm, dan tinggi 1,35 cm. Volume balok sesuai kaidah angka penting adalah …",
+        "selected": "1,13 cm³",
+        "correct": "1,13 cm³",
+        "is_correct": true,
+        "point_change": 6,
+        "answer_time": 1.9,
+        "streak": 2,
+        "timestamp": "2026-03-09T11:24:29.585316"
+      },
+      {
+        "subject": "Pengukuran dan Angka Penting",
+        "question": "Sebuah balok diukur menggunakan jangka sorong dengan panjang 1,82 cm, lebar 0,46 cm, dan tinggi 1,35 cm. Volume balok sesuai kaidah angka penting adalah …",
+        "selected": "1,13 cm³",
+        "correct": "1,13 cm³",
+        "is_correct": true,
+        "point_change": 43,
+        "answer_time": 2.0,
+        "streak": 3,
+        "timestamp": "2026-03-09T11:24:32.790178"
+      },
+      {
+        "subject": "Pengukuran Mikrometer Sekrup",
+        "question": "Hasil pengukuran diameter suatu tabung dengan mikrometer sekrup adalah 2,70 mm. Gambar yang sesuai menunjukkan skala utama di angka ...",
+        "selected": "2,5 mm dengan skala putar di 20",
+        "correct": "2,5 mm dengan skala putar di 20",
+        "is_correct": true,
+        "point_change": 7,
+        "answer_time": 6.0,
+        "streak": 4,
+        "timestamp": "2026-03-09T11:24:40.689542"
+      }
+    ],
+    "created_at": "2026-03-09T11:23:04.793207",
+    "last_played": "2026-03-09T11:24:40.687355"
+  },
+  "test999": {
+    "student_id": "test999",
+    "nama": "TestQwen",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "kelas": 10,
+    "points": 0,
+    "difficulty": "Easy",
+    "total_correct": 0,
+    "total_wrong": 0,
+    "total_answered": 0,
+    "current_streak": 0,
+    "best_streak": 0,
+    "fast_correct_count": 0,
+    "unique_topics": [],
+    "achievements": [],
+    "history": [],
+    "created_at": "2026-03-09T11:30:02.229057",
+    "last_played": null
+  },
+  "8fffbe30": {
+    "student_id": "8fffbe30",
+    "nama": "uqi2",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "kelas": 10,
+    "points": 0,
+    "difficulty": "Easy",
+    "total_correct": 0,
+    "total_wrong": 4,
+    "total_answered": 4,
+    "current_streak": 0,
+    "best_streak": 0,
+    "fast_correct_count": 0,
+    "unique_topics": [
+      "Besaran dan Satuan",
+      "Vektor Perpindahan",
+      "Vektor"
+    ],
+    "achievements": [],
+    "history": [
+      {
+        "subject": "Besaran dan Satuan",
+        "question": "Astronot Andi perlu mengukur jarak antara dua titik di stasiun luar angkasa. Jika dia menggunakan satuan meter (m), manakah dari berikut ini yang merupakan besaran pokok yang digunakan?",
+        "selected": "Detik (s)",
+        "correct": "Meter (m)",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 53.6,
+        "streak": 0,
+        "timestamp": "2026-03-09T11:52:21.252290"
+      },
+      {
+        "subject": "Vektor Perpindahan",
+        "question": "Seorang anak berlari 80 m ke utara, 80 m ke timur, dan 20 m ke selatan. Besar perpindahan anak tersebut adalah …",
+        "selected": "80 m",
+        "correct": "100 m",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 5.9,
+        "streak": 0,
+        "timestamp": "2026-03-09T11:53:12.208327"
+      },
+      {
+        "subject": "Vektor",
+        "question": "Berapakah resultan kecepatan balon relatif terhadap stasiun luar angkasa?",
+        "selected": "36 m/s",
+        "correct": "24 m/s",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 9.5,
+        "streak": 0,
+        "timestamp": "2026-03-09T11:53:45.501237"
+      },
+      {
+        "subject": "Vektor Perpindahan",
+        "question": "Seseorang mengendarai motor ke utara 30 km lalu ke timur 40 km. Besar perpindahan yang ditempuh adalah …",
+        "selected": "60 km",
+        "correct": "50 km",
+        "is_correct": false,
+        "point_change": 0,
+        "answer_time": 5.9,
+        "streak": 0,
+        "timestamp": "2026-03-09T11:54:29.754555"
+      }
+    ],
+    "created_at": "2026-03-09T11:46:49.795470",
+    "last_played": "2026-03-09T11:54:29.751913"
+  },
+  "83606382": {
+    "student_id": "83606382",
+    "nama": "tir",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "kelas": 10,
+    "points": 0,
+    "difficulty": "Easy",
+    "total_correct": 0,
+    "total_wrong": 0,
+    "total_answered": 0,
+    "current_streak": 0,
+    "best_streak": 0,
+    "fast_correct_count": 0,
+    "unique_topics": [],
+    "achievements": [],
+    "history": [],
+    "created_at": "2026-03-09T11:48:43.683975",
+    "last_played": null
+  }
+}

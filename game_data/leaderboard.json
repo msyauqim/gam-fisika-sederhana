@@ -1,0 +1,29 @@
+[
+  {
+    "student_id": "21a7f81f",
+    "nama": "uqi",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "kelas": 10,
+    "points": 78,
+    "updated_at": "2026-03-09T11:24:40.691590"
+  },
+  {
+    "student_id": "aa8a6f08",
+    "nama": "Ahmad",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "kelas": 10,
+    "points": 8,
+    "updated_at": "2026-03-09T11:04:46.708904"
+  },
+  {
+    "student_id": "8fffbe30",
+    "nama": "uqi2",
+    "jenjang": "SMA",
+    "jurusan": "IPA",
+    "kelas": 10,
+    "points": 0,
+    "updated_at": "2026-03-09T11:54:29.756372"
+  }
+]
