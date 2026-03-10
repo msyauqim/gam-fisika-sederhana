@@ -1,0 +1,642 @@
+[
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Hukum Newton kelas 10, level Easy",
+        "output": {
+            "game_type": "drag_and_drop",
+            "title": "Laboratorium Newton",
+            "description": "Siswa menyusun benda-benda dengan massa berbeda pada bidang datar dan mengamati efek gaya pada percepatan. Drag benda ke posisi yang benar berdasarkan Hukum Newton II (F=ma).",
+            "mechanics": {
+                "interaction": "Drag and drop benda ke area eksperimen",
+                "objective": "Urutkan benda berdasarkan percepatan yang dihasilkan oleh gaya yang sama",
+                "rules": [
+                    "Gaya konstan 10 N diterapkan ke semua benda",
+                    "Hitung percepatan masing-masing benda",
+                    "Susun dari percepatan terkecil ke terbesar"
+                ],
+                "win_condition": "Urutan benar sesuai F=ma"
+            },
+            "visual_style": {
+                "theme": "lab_modern",
+                "colors": [
+                    "#1a1a2e",
+                    "#16213e",
+                    "#0f3460",
+                    "#e94560"
+                ],
+                "elements": [
+                    "Meja lab",
+                    "Benda kotak berwarna",
+                    "Panah gaya",
+                    "Angka percepatan"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Benda bermassa 2 kg didorong dengan gaya 10 N. Berapa percepatannya?",
+                    "options": [
+                        "2 m/s²",
+                        "5 m/s²",
+                        "10 m/s²",
+                        "20 m/s²"
+                    ],
+                    "answer": "5 m/s²",
+                    "explanation": "F = ma → a = F/m = 10/2 = 5 m/s²"
+                }
+            ],
+            "scoring_rules": {
+                "correct_placement": 10,
+                "wrong_placement": -2,
+                "time_bonus": true,
+                "max_time_seconds": 60
+            }
+        }
+    },
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Gerak Parabola kelas 10, level Medium",
+        "output": {
+            "game_type": "simulation",
+            "title": "Penembak Parabola",
+            "description": "Siswa mengatur sudut dan kecepatan awal untuk meluncurkan proyektil ke target. Visualisasi lintasan parabola secara real-time menggunakan canvas.",
+            "mechanics": {
+                "interaction": "Slider untuk sudut (0-90°) dan kecepatan awal (1-50 m/s)",
+                "objective": "Tembakkan proyektil agar mendarat tepat di zona target",
+                "rules": [
+                    "Gravitasi g = 10 m/s²",
+                    "Hambatan udara diabaikan",
+                    "Target bergerak di setiap level"
+                ],
+                "win_condition": "Proyektil mendarat dalam radius 2m dari target"
+            },
+            "visual_style": {
+                "theme": "outdoor_field",
+                "colors": [
+                    "#0d1b2a",
+                    "#1b263b",
+                    "#415a77",
+                    "#e0e1dd"
+                ],
+                "elements": [
+                    "Kanon/peluncur",
+                    "Lintasan parabola (garis putus)",
+                    "Target zona",
+                    "Grid jarak"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Proyektil ditembakkan dengan v₀=20 m/s dan sudut 30°. Berapa jarak horizontal maksimum?",
+                    "options": [
+                        "20√3 m",
+                        "40 m",
+                        "20 m",
+                        "40√3 m"
+                    ],
+                    "answer": "20√3 m",
+                    "explanation": "R = v₀²sin(2θ)/g = 400×sin(60°)/10 = 400×(√3/2)/10 = 20√3 m"
+                }
+            ],
+            "scoring_rules": {
+                "bullseye": 25,
+                "near_target": 15,
+                "miss": 0,
+                "time_bonus": true,
+                "max_time_seconds": 90
+            }
+        }
+    },
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Usaha dan Energi kelas 10, level Easy",
+        "output": {
+            "game_type": "clicker_game",
+            "title": "Pendaki Energi",
+            "description": "Siswa harus menghitung usaha yang diperlukan untuk mendorong benda ke puncak bukit. Klik tombol untuk menerapkan gaya dan lihat energi kinetik/potensial berubah secara real-time.",
+            "mechanics": {
+                "interaction": "Klik tombol untuk menerapkan gaya dorong pada benda",
+                "objective": "Dorong benda ke puncak bukit dengan usaha yang tepat",
+                "rules": [
+                    "Setiap klik menambah usaha 5 Joule",
+                    "Energi potensial = mgh",
+                    "Usaha total harus cukup untuk mencapai puncak"
+                ],
+                "win_condition": "Benda sampai di puncak tanpa kelebihan energi lebih dari 10J"
+            },
+            "visual_style": {
+                "theme": "mountain_adventure",
+                "colors": [
+                    "#2d3436",
+                    "#636e72",
+                    "#00b894",
+                    "#fdcb6e"
+                ],
+                "elements": [
+                    "Bukit/lereng",
+                    "Benda kotak",
+                    "Bar energi KE/PE",
+                    "Meter usaha"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Benda 5 kg didorong ke ketinggian 4 m (g=10 m/s²). Berapa usaha minimum yang diperlukan?",
+                    "options": [
+                        "100 J",
+                        "200 J",
+                        "150 J",
+                        "250 J"
+                    ],
+                    "answer": "200 J",
+                    "explanation": "W = mgh = 5 × 10 × 4 = 200 Joule"
+                }
+            ],
+            "scoring_rules": {
+                "perfect_energy": 20,
+                "close_energy": 10,
+                "wasted_energy_penalty": -5,
+                "time_bonus": false,
+                "max_time_seconds": 120
+            }
+        }
+    },
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Momentum dan Impuls kelas 10, level Medium",
+        "output": {
+            "game_type": "collision_sim",
+            "title": "Arena Tumbukan",
+            "description": "Dua bola bergerak saling mendekati. Siswa memprediksi kecepatan akhir setelah tumbukan lenting sempurna atau tidak lenting.",
+            "mechanics": {
+                "interaction": "Input kecepatan akhir masing-masing bola setelah tumbukan",
+                "objective": "Prediksi kecepatan akhir yang benar berdasarkan hukum kekekalan momentum",
+                "rules": [
+                    "Momentum awal = momentum akhir",
+                    "Pilih jenis tumbukan: lenting sempurna atau tidak lenting",
+                    "Hitung kecepatan akhir kedua benda"
+                ],
+                "win_condition": "Jawaban dalam margin error 5%"
+            },
+            "visual_style": {
+                "theme": "billiard_table",
+                "colors": [
+                    "#1a1a2e",
+                    "#e94560",
+                    "#0f3460",
+                    "#53d8fb"
+                ],
+                "elements": [
+                    "Dua bola berwarna",
+                    "Vektor kecepatan (panah)",
+                    "Formulir input",
+                    "Animasi tumbukan"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Bola A (2kg, 6m/s) menumbuk bola B (3kg, diam) secara tidak lenting sempurna. Berapa kecepatan akhir?",
+                    "options": [
+                        "2.4 m/s",
+                        "3.0 m/s",
+                        "4.0 m/s",
+                        "6.0 m/s"
+                    ],
+                    "answer": "2.4 m/s",
+                    "explanation": "m₁v₁ = (m₁+m₂)v' → 2×6 = 5×v' → v' = 12/5 = 2.4 m/s"
+                }
+            ],
+            "scoring_rules": {
+                "exact_answer": 20,
+                "close_answer": 10,
+                "wrong_answer": -3,
+                "time_bonus": true,
+                "max_time_seconds": 90
+            }
+        }
+    },
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Listrik Dinamis kelas 12, level Easy",
+        "output": {
+            "game_type": "circuit_builder",
+            "title": "Rangkai Listrik",
+            "description": "Siswa merangkai komponen listrik (baterai, resistor, lampu) di papan sirkuit virtual. Amati arus dan tegangan berubah sesuai Hukum Ohm (V=IR).",
+            "mechanics": {
+                "interaction": "Drag komponen listrik ke papan sirkuit dan hubungkan dengan kabel",
+                "objective": "Buat rangkaian yang menghasilkan arus sesuai target",
+                "rules": [
+                    "Hukum Ohm: V = IR",
+                    "Resistor seri: R_total = R1 + R2",
+                    "Lampu menyala jika arus cukup"
+                ],
+                "win_condition": "Arus dalam rangkaian sesuai target ±0.5A"
+            },
+            "visual_style": {
+                "theme": "electronics_lab",
+                "colors": [
+                    "#0a0a23",
+                    "#1b1b32",
+                    "#2a2a4a",
+                    "#ffd700"
+                ],
+                "elements": [
+                    "Papan sirkuit hijau",
+                    "Baterai",
+                    "Resistor berwarna",
+                    "Kabel",
+                    "Ammeter digital"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Baterai 12V dihubungkan dengan resistor 4Ω. Berapa arus yang mengalir?",
+                    "options": [
+                        "2 A",
+                        "3 A",
+                        "4 A",
+                        "6 A"
+                    ],
+                    "answer": "3 A",
+                    "explanation": "I = V/R = 12/4 = 3 Ampere"
+                }
+            ],
+            "scoring_rules": {
+                "correct_circuit": 15,
+                "correct_answer": 10,
+                "wrong_circuit": -5,
+                "time_bonus": true,
+                "max_time_seconds": 120
+            }
+        }
+    },
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Gerak Lurus (GLB & GLBB) kelas 10, level Easy",
+        "output": {
+            "game_type": "racing_game",
+            "title": "Balap Kecepatan",
+            "description": "Dua mobil bergerak di lintasan lurus: satu dengan GLB (kecepatan konstan) dan satu dengan GLBB (percepatan konstan). Siswa memprediksi mobil mana yang lebih dulu sampai finish.",
+            "mechanics": {
+                "interaction": "Pilih mobil pemenang dan hitung waktu tempuhnya",
+                "objective": "Analisis grafik v-t untuk menentukan pemenang balapan",
+                "rules": [
+                    "Mobil A: GLB dengan v = 20 m/s",
+                    "Mobil B: GLBB dengan v₀ = 0, a = 5 m/s²",
+                    "Lintasan 100 m"
+                ],
+                "win_condition": "Prediksi pemenang dan waktu yang benar"
+            },
+            "visual_style": {
+                "theme": "race_track",
+                "colors": [
+                    "#1a1a2e",
+                    "#f39c12",
+                    "#e74c3c",
+                    "#2ecc71"
+                ],
+                "elements": [
+                    "Lintasan lurus",
+                    "Dua mobil animasi",
+                    "Grafik v-t real-time",
+                    "Stopwatch"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Mobil GLB (v=20 m/s) dan GLBB (v₀=0, a=5 m/s²) berlomba 100 m. Siapa menang?",
+                    "options": [
+                        "Mobil GLB (5 detik)",
+                        "Mobil GLBB (√40 detik)",
+                        "Bersamaan",
+                        "Tidak bisa ditentukan"
+                    ],
+                    "answer": "Mobil GLB (5 detik)",
+                    "explanation": "GLB: t = s/v = 100/20 = 5s. GLBB: s = ½at² → 100 = ½(5)t² → t = √40 ≈ 6.3s. GLB menang!"
+                }
+            ],
+            "scoring_rules": {
+                "correct_winner": 10,
+                "correct_time": 10,
+                "wrong_answer": -2,
+                "time_bonus": true,
+                "max_time_seconds": 60
+            }
+        }
+    },
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Fluida Statis kelas 11, level Medium",
+        "output": {
+            "game_type": "liquid_puzzle",
+            "title": "Tekanan di Kedalaman",
+            "description": "Siswa mengontrol kedalaman sebuah objek di dalam kolom air dan mengamati perubahan tekanan hidrostatis. Tebak tekanan pada kedalaman tertentu.",
+            "mechanics": {
+                "interaction": "Slider untuk mengatur kedalaman objek (0-20 m)",
+                "objective": "Tentukan tekanan hidrostatis pada kedalaman yang ditentukan",
+                "rules": [
+                    "P = ρgh + P_atm",
+                    "Densitas air = 1000 kg/m³",
+                    "P_atm = 101325 Pa",
+                    "g = 10 m/s²"
+                ],
+                "win_condition": "Jawaban tekanan benar dalam margin 5%"
+            },
+            "visual_style": {
+                "theme": "underwater",
+                "colors": [
+                    "#006994",
+                    "#0099cc",
+                    "#00bfff",
+                    "#e0f7fa"
+                ],
+                "elements": [
+                    "Kolom air transparan",
+                    "Objek terapung/tenggelam",
+                    "Gauge tekanan",
+                    "Gelembung udara animasi"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Berapa tekanan hidrostatis pada kedalaman 5m di air? (ρ=1000 kg/m³, g=10 m/s²)",
+                    "options": [
+                        "50000 Pa",
+                        "100000 Pa",
+                        "150000 Pa",
+                        "25000 Pa"
+                    ],
+                    "answer": "50000 Pa",
+                    "explanation": "P_hidrostatis = ρgh = 1000 × 10 × 5 = 50000 Pa"
+                }
+            ],
+            "scoring_rules": {
+                "exact_answer": 20,
+                "close_answer": 10,
+                "wrong_answer": -5,
+                "time_bonus": true,
+                "max_time_seconds": 90
+            }
+        }
+    },
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Optik Geometri kelas 11, level Hard",
+        "output": {
+            "game_type": "ray_tracing",
+            "title": "Jejak Cahaya",
+            "description": "Siswa menempatkan cermin dan lensa untuk mengarahkan sinar cahaya menuju target. Terapkan hukum pemantulan dan pembiasan Snellius.",
+            "mechanics": {
+                "interaction": "Drag dan rotasi cermin/lensa untuk mengarahkan sinar",
+                "objective": "Arahkan sinar laser dari sumber ke detektor target",
+                "rules": [
+                    "Sudut datang = sudut pantul untuk cermin",
+                    "Hukum Snellius untuk lensa: n₁sinθ₁ = n₂sinθ₂",
+                    "Sinar tidak boleh menabrak dinding"
+                ],
+                "win_condition": "Sinar mencapai semua target dalam urutan yang benar"
+            },
+            "visual_style": {
+                "theme": "dark_lab",
+                "colors": [
+                    "#0d0d0d",
+                    "#1a1a2e",
+                    "#ff0000",
+                    "#00ff00"
+                ],
+                "elements": [
+                    "Sinar laser merah",
+                    "Cermin datar",
+                    "Lensa cembung",
+                    "Target bercahaya",
+                    "Grid sudut"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Sinar datang dengan sudut 30° terhadap normal cermin. Berapa sudut pantulnya?",
+                    "options": [
+                        "15°",
+                        "30°",
+                        "45°",
+                        "60°"
+                    ],
+                    "answer": "30°",
+                    "explanation": "Hukum pemantulan: sudut datang = sudut pantul = 30°"
+                }
+            ],
+            "scoring_rules": {
+                "all_targets_hit": 30,
+                "per_target": 10,
+                "mirror_used_penalty": -2,
+                "time_bonus": true,
+                "max_time_seconds": 120
+            }
+        }
+    },
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Fisika Kuantum kelas 12, level Medium",
+        "output": {
+            "game_type": "probability_game",
+            "title": "Lotere Kuantum",
+            "description": "Siswa menembakkan foton ke celah ganda dan mengamati pola interferensi yang terbentuk. Prediksi di mana foton akan mendarat berdasarkan probabilitas kuantum.",
+            "mechanics": {
+                "interaction": "Klik untuk menembakkan foton satu per satu ke layar celah ganda",
+                "objective": "Kumpulkan cukup foton untuk melihat pola interferensi terbentuk",
+                "rules": [
+                    "Setiap foton memiliki probabilitas mendarat di lokasi berbeda",
+                    "Pola interferensi muncul setelah banyak foton",
+                    "Prediksi zona terang dan gelap"
+                ],
+                "win_condition": "Prediksi posisi puncak interferensi dengan benar"
+            },
+            "visual_style": {
+                "theme": "quantum_lab",
+                "colors": [
+                    "#0a0a23",
+                    "#1b1b32",
+                    "#7b2ff7",
+                    "#00d4ff"
+                ],
+                "elements": [
+                    "Sumber foton",
+                    "Celah ganda",
+                    "Layar deteksi",
+                    "Titik-titik foton yang terakumulasi"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Energi foton dengan frekuensi 5×10¹⁴ Hz adalah? (h = 6.6×10⁻³⁴ J·s)",
+                    "options": [
+                        "3.3×10⁻¹⁹ J",
+                        "6.6×10⁻¹⁹ J",
+                        "1.32×10⁻¹⁹ J",
+                        "3.3×10⁻²⁰ J"
+                    ],
+                    "answer": "3.3×10⁻¹⁹ J",
+                    "explanation": "E = hf = 6.6×10⁻³⁴ × 5×10¹⁴ = 3.3×10⁻¹⁹ Joule"
+                }
+            ],
+            "scoring_rules": {
+                "correct_prediction": 15,
+                "photon_collected": 1,
+                "wrong_prediction": -3,
+                "time_bonus": false,
+                "max_time_seconds": 180
+            }
+        }
+    },
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Termodinamika kelas 11, level Easy",
+        "output": {
+            "game_type": "temperature_control",
+            "title": "Chef Termodinamika",
+            "description": "Siswa mengontrol nyala api untuk memanaskan air dari suhu ruangan hingga mendidih. Hitung kalor yang dibutuhkan menggunakan Q=mcΔT.",
+            "mechanics": {
+                "interaction": "Slider untuk mengatur besar kalor yang diberikan ke air",
+                "objective": "Panaskan air hingga tepat 100°C tanpa melebihi",
+                "rules": [
+                    "Massa air = 500 gram",
+                    "Kalor jenis air = 4200 J/kg°C",
+                    "Suhu awal = 25°C",
+                    "Target: 100°C"
+                ],
+                "win_condition": "Suhu air tepat 100°C (±2°C)"
+            },
+            "visual_style": {
+                "theme": "kitchen",
+                "colors": [
+                    "#2d3436",
+                    "#e17055",
+                    "#00cec9",
+                    "#ffeaa7"
+                ],
+                "elements": [
+                    "Panci air",
+                    "Kompor dengan api",
+                    "Termometer digital",
+                    "Uap animasi"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Kalor yang dibutuhkan untuk memanaskan 500g air dari 25°C ke 100°C? (c=4200 J/kg°C)",
+                    "options": [
+                        "157500 J",
+                        "210000 J",
+                        "105000 J",
+                        "315000 J"
+                    ],
+                    "answer": "157500 J",
+                    "explanation": "Q = mcΔT = 0.5 × 4200 × (100-25) = 0.5 × 4200 × 75 = 157500 J"
+                }
+            ],
+            "scoring_rules": {
+                "perfect_temperature": 20,
+                "close_temperature": 10,
+                "overheated_penalty": -10,
+                "time_bonus": true,
+                "max_time_seconds": 60
+            }
+        }
+    },
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Gravitasi kelas 10, level Medium",
+        "output": {
+            "game_type": "orbit_simulator",
+            "title": "Orbit Planner",
+            "description": "Siswa meluncurkan satelit ke orbit mengelilingi planet. Atur kecepatan awal agar satelit masuk orbit stabil (bukan jatuh atau lepas).",
+            "mechanics": {
+                "interaction": "Slider kecepatan peluncuran (1-15 km/s) dan sudut peluncuran",
+                "objective": "Masukkan satelit ke orbit lingkaran stabil",
+                "rules": [
+                    "F_gravitasi = GMm/r²",
+                    "v_orbit = √(GM/r)",
+                    "Terlalu lambat: satelit jatuh",
+                    "Terlalu cepat: satelit lepas"
+                ],
+                "win_condition": "Satelit mengorbit stabil selama 3 putaran penuh"
+            },
+            "visual_style": {
+                "theme": "space",
+                "colors": [
+                    "#000000",
+                    "#0d1b2a",
+                    "#1b263b",
+                    "#778da9"
+                ],
+                "elements": [
+                    "Planet biru",
+                    "Satelit kecil",
+                    "Lintasan orbit (garis putus)",
+                    "Bintang latar"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Jika jari-jari orbit satelit dilipatgandakan, kecepatan orbitnya menjadi...",
+                    "options": [
+                        "2× lebih besar",
+                        "√2× lebih besar",
+                        "1/√2× dari semula",
+                        "Tetap sama"
+                    ],
+                    "answer": "1/√2× dari semula",
+                    "explanation": "v = √(GM/r). Jika r → 2r, maka v → √(GM/2r) = v₀/√2"
+                }
+            ],
+            "scoring_rules": {
+                "stable_orbit": 25,
+                "near_orbit": 10,
+                "crash_or_escape": -5,
+                "time_bonus": true,
+                "max_time_seconds": 120
+            }
+        }
+    },
+    {
+        "instruction": "Buatkan spesifikasi mini-game interaktif untuk topik Gelombang Mekanik kelas 11, level Easy",
+        "output": {
+            "game_type": "wave_maker",
+            "title": "Pembuat Gelombang",
+            "description": "Siswa mengatur frekuensi dan amplitudo untuk membuat gelombang yang cocok dengan pola target. Visualisasi gelombang sinusoidal real-time.",
+            "mechanics": {
+                "interaction": "Slider untuk frekuensi (1-10 Hz) dan amplitudo (1-10 cm)",
+                "objective": "Cocokkan gelombang yang di-generate dengan gelombang target",
+                "rules": [
+                    "v = fλ",
+                    "Kecepatan gelombang tetap = 10 m/s",
+                    "Ubah frekuensi untuk mengubah panjang gelombang"
+                ],
+                "win_condition": "Gelombang pemain overlap 90% dengan gelombang target"
+            },
+            "visual_style": {
+                "theme": "ocean_blue",
+                "colors": [
+                    "#0077b6",
+                    "#023e8a",
+                    "#90e0ef",
+                    "#caf0f8"
+                ],
+                "elements": [
+                    "Gelombang sinusoidal animasi",
+                    "Gelombang target (transparan)",
+                    "Panel kontrol slider",
+                    "Info λ, f, A"
+                ]
+            },
+            "quiz_questions": [
+                {
+                    "question": "Gelombang merambat dengan v=10 m/s dan f=5 Hz. Berapa panjang gelombangnya?",
+                    "options": [
+                        "2 m",
+                        "5 m",
+                        "50 m",
+                        "0.5 m"
+                    ],
+                    "answer": "2 m",
+                    "explanation": "λ = v/f = 10/5 = 2 meter"
+                }
+            ],
+            "scoring_rules": {
+                "perfect_match": 20,
+                "close_match": 10,
+                "wrong_match": 0,
+                "time_bonus": true,
+                "max_time_seconds": 90
+            }
+        }
+    }
+]
